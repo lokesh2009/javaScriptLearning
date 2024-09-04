@@ -1,9 +1,12 @@
-console.log("Start program")
+
 // There two ways to handle promise, one way create a callback function and use a promise on that
 /* 
-And Another way 
+        And Another way 
 
 */
+
+console.log("Start program")
+
 
 function longoperation(waitMS =2000){
 console.log("Waiting for", waitMS, "milliseconds");

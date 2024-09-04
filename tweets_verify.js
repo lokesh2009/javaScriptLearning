@@ -38,6 +38,8 @@ let Sample_tweet = tweets[0];
 
 let is_happy_tweets ;
 
+
+
 happyWords.forEach(word =>{
     if(Sample_tweet.includes(word)){
         is_happy_tweets=true
