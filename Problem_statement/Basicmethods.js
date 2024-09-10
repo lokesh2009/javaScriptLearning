@@ -25,9 +25,9 @@ function getFollowingRespositories(username){
     .then((users) =>{
      console.log(`the user ${username} is following ${users.following} users`)
      return getFollowings(username)
-    }).then(followings)=>{
+    }).then((followings)=>{
         console.log("Followings :",followings)
-    }
+    })
 }
 
 getFollowingRespositories("lokesh2009")
