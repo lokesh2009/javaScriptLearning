@@ -61,3 +61,16 @@ function countCharacterOccurrences(str) {
 let input = "hello world";
 let result1 = countCharacterOccurrences(input);
 console.log(result);
+
+
+// Occurance of character 
+debugger
+let value = [2,3,5,5,5,3,3,2,6,6]
+let res =[]
+debugger
+for(const i in value){
+    res[i] = res[i]?res[i]+1:1;
+    debugger
+}
+
+console.log(i)
