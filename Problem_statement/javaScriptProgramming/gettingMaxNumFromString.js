@@ -9,4 +9,3 @@ function reverseWords(text){
 
 let text = "   geeks for all";
 console.log(reverseWords(text));
-
