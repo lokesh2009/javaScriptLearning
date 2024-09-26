@@ -23,6 +23,10 @@ const objectsArray = [
   // 2. Sort the array of objects by amount in ascending order
   const sortedByAmount = [...objectsArray].sort((a, b) => a.amount - b.amount);
   console.log("Sorted by amount:", sortedByAmount);
+
+  // 2. Sort the array of objects by amount in decending order
+  const sortedByAmountDecending = [...objectsArray].sort((a, b) => b.amount - a.amount);
+  console.log("Sorted by decending amount :", sortedByAmountDecending);
   
   // 3. Sort the array of objects by name in alphabetical order
   const sortedByName = [...objectsArray].sort((a, b) => a.name.localeCompare(b.name));
@@ -31,4 +35,5 @@ const objectsArray = [
   // 4. Print the amounts with INR label
   const formattedAmounts = amounts.map(amount => `INR ${amount}`);
   console.log("Formatted amounts:", formattedAmounts);
+  
   
