@@ -5,6 +5,19 @@ function access(str){
     }
 }
 
+
+  function reverseString(str) {
+    let reversedStr = '';
+    for (let i = str.length - 1; i >= 0; i--) {
+      reversedStr += str[i];
+    }
+    return reversedStr;
+  }
+
 let str = "GeeksforGeeks"
 let result = access(str)
 console.log(result)
+
+let stri="Sunny";
+
+console.log(reverseString(stri));
