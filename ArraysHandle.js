@@ -1,5 +1,6 @@
 let fruits =['mango', 'banana','grapes'];
 
+
 console.log(fruits[1]);
 
 console.log(fruits.unshift("Straberry"));

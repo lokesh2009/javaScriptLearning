@@ -4,6 +4,9 @@ function isPalindrome(str) {
     const reversedStr = normalizedStr.split('').reverse().join('');     // Reverse string
     return normalizedStr === reversedStr;  // Check if the string is equal to its reverse
   }
+
+
+
   
   // Function to find all palindromes in a list
   function findPalindromes(list) {

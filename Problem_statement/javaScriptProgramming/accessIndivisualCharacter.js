@@ -21,3 +21,14 @@ console.log(result)
 let stri="Sunny";
 
 console.log(reverseString(stri));
+
+// using for each method
+
+let fruits = ['mango','banana','grapes','orange']
+function iterate(fruits){
+    fruits.forEach((fruit)=>{
+        console.log(fruit);
+    })
+}
+
+console.log(iterate(fruits))
